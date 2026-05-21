@@ -1,3 +1,11 @@
+:root {
+    --color-teal: #11676a;
+    --color-mint: #7bd8c0;
+    --color-green: #3ec18b;
+    --color-white: #ffffff;
+    --color-text: #212529;
+}
+
 /******* GENERAL *******/
 /* spacing on all sections */
 #about,
@@ -19,22 +27,38 @@
     padding-bottom: 4rem;
 }
 
-/* display background dark color on navbar scroll */
+/* NAVBAR */
+
+/* Fond teal au scroll*/
 .navbarScroll.navbarDark {
-    background-color: #2b2b2b;
+    background-color: var(--color-teal);
 }
 
-/*Force navbar links to be white*/
-.navbar-dark .navbar-nav .nav-link {
-    color: #ffffff;
+/*Etat en haut de page*/
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+    color: var(--color-teal);
+    font-weight: bold;
+}
+
+/*Etat au scroll*/
+.navbarDark .navbar-nav .nav-link,
+.navbarDark .navbar-brand {
+    color: var(--color-white);
+}
+
+/* Survol et lien actif (vert, dans les deux états) */
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--color-green);
 }
 
 /* hero background image */
 .bgimage {
     height: 100vh;
     max-height: 900px;
-    background-color: #1a1a2e;
-    background-image: url("images/image1.jpg");
+    background-color: var(--color-teal);
+    background-image: url("images/color_background_title.jpg");
     background-size: cover;
     position: relative;
 }
@@ -54,7 +78,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: var(--color-white);
+    border: 5px solid var(--color-white);
+    border-radius: 25px;
+    padding: 3rem 4rem;
+    max-width: 900px;
 }
 
 /* about */
@@ -118,3 +146,34 @@
 }
 
 /* footer */
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--color-white);
+        border: 5px solid var(--color-white);
+        border-radius: 25px;
+        padding: 3rem 4rem;
+        max-width: 700px;
+        width: 90%;
+    }
+
+    .hero_title {
+        font-size: 2.5rem;
+    }
+
+    .hero_desc {
+        font-size: 1.2rem;
+    }
+
+    .hero-text {
+        padding: 2rem 1.5rem;
+        top: 60%;
+    }
+}
