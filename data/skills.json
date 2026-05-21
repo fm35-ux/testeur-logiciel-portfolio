@@ -1,20 +1,5 @@
 [
     {
-        "image": "html-css.jpg",
-        "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
-    },
-    {
-        "image": "js.jpg",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
-    },
-    {
-        "image": "react.jpg",
-        "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
-    },
-    {
         "image": "gestion-de-projet.png",
         "title": "Gestion de projet",
         "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
@@ -28,5 +13,35 @@
         "image": "test.png",
         "title": "Test",
         "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’une rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
+    },
+    {
+        "image": "logo_cypress.png",
+        "title": "Cypress",
+        "text": "Automatisation de tests end-to-end et de tests d'API, écriture de scénarios de test, vérification d'anomalies et utilisation des rapports générés."
+    },
+    {
+        "image": "logo_postman.png",
+        "title": "Postman",
+        "text": "Tests manuels d'API, vérification des codes de réponse HTTP et des données retournées, organisation des requêtes en collections."
+    },
+    {
+        "image": "logo_jira.png",
+        "title": "Jira",
+        "text": "Gestion et suivi des anomalies, création de tickets de bug détaillés, suivi de l'avancement d'une campagne de test."
+    },
+    {
+        "image": "html-css.jpg",
+        "title": "HTML - CSS",
+        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
+    },
+    {
+        "image": "js.jpg",
+        "title": "javascript",
+        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
+    },
+    {
+        "image": "react.jpg",
+        "title": "React",
+        "text": "Création d’applications React, création de composants et manipulation de leur état"
     }
 ]

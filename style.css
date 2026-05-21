@@ -87,16 +87,13 @@
 
 /* about */
 #about {
-    background-color: var(--color-mint);
-    margin: 2rem;
     padding: 3rem;
-    border-radius: 30px;
 }
 
 #about h2 {
-    color: var(--color-white);
+    color: var(--color-teal);
     margin-bottom: 2rem;
-    margin-right: 5rem;
+    font-weight: bold;
 }
 
 /* Photo de profil en cercle */
@@ -110,8 +107,8 @@
 
 /* Cadre blanc autour du texte de présentation */
 .aboutText {
-    background-color: var(--color-white);
-    border: 3px solid var(--color-teal);
+    /* background-color: var(--color-white); */
+    border: 3px solid var(--color-mint);
     border-radius: 20px;
     padding: 2rem;
     color: var(--color-text);
@@ -120,13 +117,22 @@
 /* skills */
 
 #skills {
+    background-color: var(--color-green);
     margin: 2rem;
     padding: 3rem;
+    border-radius: 30px;
+}
+
+#skills h2 {
+    color: var(--color-white);
 }
 
 .skillsText.card {
     height: 350px;
     cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .skillsText img {
@@ -149,12 +155,10 @@
     text-align: center;
 }
 
-.card:hover .skillsIcon {
-    color: #008000;
-}
-
-.skillsText:hover {
-    border: 1px solid #008000;
+.skillsText.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
 }
 
 /* portfolio */
@@ -217,8 +221,12 @@
     }
 
     #skills {
-        margin: 0;
-        padding: 0;
+        margin: 1rem;
+        padding: 2rem 0;
+    }
+
+    #skills h2 {
+        margin-bottom: 0;
     }
 
 }
