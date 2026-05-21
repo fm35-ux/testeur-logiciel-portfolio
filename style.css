@@ -8,13 +8,13 @@
 
 /******* GENERAL *******/
 /* spacing on all sections */
-#about,
+/* #about,
 #skills,
 #portfolio,
 #contact {
     margin-top: 4rem;
     padding-top: 4rem;
-}
+} */
 
 #about h2,
 #skills h2,
@@ -86,16 +86,44 @@
 }
 
 /* about */
-.imageAboutPage {
-    width: 100%;
+#about {
+    background-color: var(--color-mint);
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 30px;
 }
 
+#about h2 {
+    color: var(--color-white);
+    margin-bottom: 2rem;
+    margin-right: 5rem;
+}
+
+/* Photo de profil en cercle */
 .imageAboutPage {
+    width: 100%;
+    max-width: 280px;
     border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    margin-bottom: 2rem;
+}
+
+/* Cadre blanc autour du texte de présentation */
+.aboutText {
+    background-color: var(--color-white);
+    border: 3px solid var(--color-teal);
+    border-radius: 20px;
+    padding: 2rem;
+    color: var(--color-text);
 }
 
 /* skills */
+
+#skills {
+    margin: 2rem;
+    padding: 3rem;
+}
+
 .skillsText.card {
     height: 350px;
     cursor: pointer;
@@ -176,4 +204,21 @@
         padding: 2rem 1.5rem;
         top: 60%;
     }
+
+    #about {
+        margin: 1rem;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+
+    #about h2 {
+        margin-bottom: 2rem;
+        margin-right: 0;
+    }
+
+    #skills {
+        margin: 0;
+        padding: 0;
+    }
+
 }
