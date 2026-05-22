@@ -19,6 +19,19 @@
 }
 
 /* NAVBAR */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid var(--color-teal);
+    color: var(--color-teal);
+    font-weight: bold;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
 
 /* Fond teal au scroll*/
 .navbarScroll.navbarDark {
