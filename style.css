@@ -124,7 +124,6 @@
 
 /* Cadre blanc autour du texte de présentation */
 .aboutText {
-    /* background-color: var(--color-white); */
     border: 3px solid var(--color-mint);
     border-radius: 20px;
     padding: 2rem;
@@ -321,7 +320,6 @@ footer p {
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
-
     .hero-text {
         text-align: center;
         position: absolute;
@@ -351,13 +349,24 @@ footer p {
 
     #about {
         margin: 1rem;
-        padding: 1rem;
+        padding: 0;
         border-radius: 10px;
     }
 
     #about h2 {
         margin-bottom: 2rem;
         margin-right: 0;
+    }
+
+    /* Photo de profil en cercle */
+    .imageAboutPage {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .aboutText {
+        padding: 1rem;
+
     }
 
     #skills {
