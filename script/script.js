@@ -108,8 +108,28 @@ function createPortfolioFromJSON() {
         });
 }
 
+// Animation machine à écrire sur le titre de la bannière
+function effetMachineAEcrire() {
+    const titre = document.querySelector(".hero_title");
+    if (!titre) return;
+
+    const texte = titre.textContent;
+    titre.textContent = "";
+    let i = 0;
+
+    function ecrire() {
+        if (i < texte.length) {
+            titre.textContent += texte.charAt(i);
+            i++;
+            setTimeout(ecrire, 80);
+        }
+    }
+    ecrire();
+}
+
 // Call the functions to execute the code
 handleNavbarScroll();
 handleNavbarCollapse();
 createSkillsFromJSON();
 createPortfolioFromJSON();
+effetMachineAEcrire();
