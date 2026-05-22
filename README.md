@@ -19,18 +19,17 @@ J'interviens sur l'intégralité du projet, de la correction technique à la mis
 
 Mes missions principales :
 
-- 🐛 **Corriger 3 bugs** identifiés grâce aux Chrome DevTools (icônes Font Awesome non affichées, éléments dynamiques défaillants)
-- ⚡ **Mettre en place 3 optimisations** sur les images, les contrastes de couleurs et la hiérarchie des titres, dans le respect des bonnes pratiques d'accessibilité et de SEO
-- ♿ **Améliorer l'accessibilité** du site en m'appuyant sur les recommandations de WAVE WebAIM
-- 📊 **Évaluer et améliorer les performances** à l'aide de Lighthouse
-- ✏️ **Personnaliser le contenu** : présentation de mon profil, de ma formation, de mes compétences et d'au moins 2 projets (avec description et lien vers le code/site)
-- 🌐 **Déployer le site en ligne** via GitHub Pages
+- **Corriger 3 bugs** identifiés grâce aux Chrome DevTools (icônes Font Awesome non affichées, éléments dynamiques défaillants)
+- **Mettre en place 3 optimisations** sur les images, les contrastes de couleurs et la hiérarchie des titres, dans le respect des bonnes pratiques d'accessibilité et de SEO
+- **Améliorer l'accessibilité** du site en m'appuyant sur les recommandations de WAVE WebAIM
+- **Évaluer et améliorer les performances** à l'aide de Lighthouse
+- **Personnaliser le contenu** : présentation de mon profil, de ma formation, de mes compétences et d'au moins 2 projets (avec description et lien vers le code/site)
+- **Déployer le site en ligne** via GitHub Pages
 
 ## 🛠️ Stack Technique
 
 - **HTML5** / **CSS3** — structure et mise en forme du portfolio
 - **JavaScript** — éléments dynamiques du site
-- **Font Awesome** — bibliothèque d'icônes
 - **Chrome DevTools** — débogage et inspection du code
 - **Lighthouse** — audit de performance, accessibilité et SEO
 - **WAVE WebAIM** — audit d'accessibilité web
