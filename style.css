@@ -7,15 +7,6 @@
 }
 
 /******* GENERAL *******/
-/* spacing on all sections */
-/* #about,
-#skills,
-#portfolio,
-#contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-} */
-
 #about h2,
 #skills h2,
 #portfolio h2,
@@ -66,6 +57,7 @@
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .hero_desc {
@@ -162,9 +154,102 @@
 }
 
 /* portfolio */
+#portfolio {
+    margin: 2rem;
+    padding: 3rem;
+}
+
+#portfolio h2 {
+    color: var(--color-green);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
 #portfolio p {
     text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
 }
+
+.portfolioContent.card {
+    border: 4px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolioContent.card:hover {
+    border: 4px solid var(--color-mint);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.portfolioContent .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.portfolioContent .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.portfolioContent .card-text {
+    flex-grow: 1;
+}
+
+/* Conteneur des badges */
+.badgesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin: 1rem 0;
+    min-height: 70px;
+    align-items: center;
+}
+
+/* Un badge */
+.badgeProjet {
+    background-color: #e9ecef;
+    color: var(--color-text);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    transition: all 0.3s ease;
+}
+
+/* Badge au survol : teal + texte blanc */
+.badgeProjet:hover {
+    background-color: var(--color-teal);
+    color: var(--color-white);
+}
+
+/* Bouton Lien */
+.btnLien {
+    display: inline-block;
+    background-color: #e6e6d7;
+    color: var(--color-teal);
+    font-weight: bold;
+    padding: 0.6rem 2rem;
+    border-radius: 8px;
+    border: 3px solid transparent;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+/* Bouton au survol : bordure mint */
+.btnLien:hover {
+    border: 3px solid var(--color-mint);
+    color: var(--color-teal);
+}
+
 
 /* contact */
 .contactColumn {

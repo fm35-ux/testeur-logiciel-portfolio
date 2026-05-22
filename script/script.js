@@ -73,21 +73,30 @@ function createPortfolioFromJSON() {
             data.forEach((item, index) => {
                 const card = document.createElement("div");
                 card.classList.add("col-lg-4", "mt-4");
+
+                // Génère les badges à partir de la liste "badges" du JSON
+                const badgesHTML = item.badges
+                    .map((badge) => `<span class="badgeProjet">${badge}</span>`)
+                    .join("");
+
                 card.innerHTML = `
                     <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/${item.image}" alt="Image du projet ${item.title}" style="width:100%">
-                    <div class="card-body">
-                        <h3 class="card-title">${item.title}</h3>
-                        <p class="card-text">${item.text}</p>
-                        <div class="text-center">
-                            <a href="${item.link}" class="btn btn-success">Lien</a>
+                        <img class="card-img-top" src="images/${item.image}" alt="Image du projet ${item.title}">
+                        <div class="card-body">
+                            <h3 class="card-title">${item.title}</h3>
+                            <p class="card-text">${item.text}</p>
+                            <div class="badgesContainer">
+                                ${badgesHTML}
+                            </div>
+                            <div class="text-center">
+                                <a href="${item.link}" class="btnLien" target="_blank" rel="noopener noreferrer">Lien</a>
+                            </div>
                         </div>
                     </div>
-                </div>
                 `;
 
                 // Append the card to the current row
-                row.appendChild(card); //correction apportée : apenChild > appendChild
+                row.appendChild(card);
 
                 // If the index is a multiple of 3 or it's the last element, create a new row
                 if ((index + 1) % 3 === 0 || index === data.length - 1) {

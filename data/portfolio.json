@@ -1,20 +1,69 @@
 [
     {
-        "image": "image1.png",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "eco_bliss_bath.jpg",
+        "title": "Eco Bliss Bath",
+        "text": "Automatisation des tests fonctionnels de la boutique en ligne Eco Bliss Bath en écrivant des scripts en JavaScript avec Cypress. Conception de suites de tests pour l'API, de Smoke Tests et de scripts de détection de failles de sécurité de type XSS. Rédaction d'un rapport de fin de campagne analysant les résultats d'exécution et répertoriant les régressions trouvées.",
+        "badges": [
+            "Javascript",
+            "Cypress",
+            "API REST",
+            "Git-Github"
+        ],
+        "link": "https://github.com/fm35-ux/Eco-Bliss-Bath-P10"
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "tomsen.jpg",
+        "title": "Tomsen",
+        "text": "Conception de la stratégie de test globale pour une application financière. Analyse des spécifications fonctionnelles pour concevoir une matrice de traçabilité des exigences et un cahier de recette structuré selon les Sprints Agiles. Estimation des charges via des abaques et planification d'une campagne de non-régression pour sécuriser les fonctionnalités critiques.",
+        "badges": [
+            "Méthodologie Agile",
+            "Notion"
+        ],
+        "link": "https://github.com/fm35-ux/Payforge-Qa-test-strategy"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "text": "Refonte complète de l'application de location immobilière Kasa en utilisant la bibliothèque React et le bundler Vite. Développement de composants d'interface interactifs (carrousel, collapses) et configuration de la navigation via React Router. Écriture de tests unitaires avec un objectif de couverture supérieur à 80% pour sécuriser l'application.",
+        "badges": [
+            "React",
+            "React Router",
+            "Vitest",
+            "API Rest"
+        ],
+        "link": "https://github.com/fm35-ux/Kasa_appli_location_immobiliere_React"
+    },
+    {
+        "image": "qwenta.jpg",
+        "title": "Qwenta",
+        "text": "Planification complète du développement d'un site SaaS de création de menus en prenant le relais du Product Owner. Rédaction des spécifications techniques de l'application et découpage des User Stories en tâches de développement sur un tableau Kanban Notion. Mise en place d'une méthode de veille technologique et préparation d'un support de présentation pour restituer la solution technique au client.",
+        "badges": [
+            "Méthodologie Agile",
+            "Notion"
+        ],
+        "link": "https://github.com/fm35-ux/Projet-Qwenta"
+    },
+    {
+        "image": "sophie_bluel.jpg",
+        "title": "Sophie Bluel",
+        "text": "Développement en JavaScript de la partie Front-End du portfolio d'une architecte d'intérieur. Implémentation complète d'un espace de connexion administrateur et d'une modale d'upload de fichiers connectée à une API Rest. Manipulation avancée du DOM, gestion des événements asynchrones et versioning sur GitHub avec flux de travail par branches.",
+        "badges": [
+            "Javascript",
+            "API REST",
+            "Figma"
+        ],
+        "link": "https://github.com/fm35-ux/Architecte-sophie-bluel"
+    },
+    {
+        "image": "booki.jpg",
+        "title": "Booki",
+        "text": "Développement de la page d'accueil responsive de l'agence de voyage Booki en utilisant uniquement HTML et CSS. Intégration précise de maquettes Figma déclinées pour écrans desktop, tablette et mobile. Structuration propre du code et des assets d'après une note de synthèse et des contraintes techniques strictes.",
+        "badges": [
+            "HTML",
+            "CSS",
+            "Figma",
+            "Git-Github"
+        ],
+        "link": "https://github.com/fm35-ux/Booki_HomePage"
     }
 ]
